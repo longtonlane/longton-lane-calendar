@@ -1,0 +1,727 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ChatGPT//Longton Lane School Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Longton Lane School
+X-WR-TIMEZONE:Europe/London
+BEGIN:VEVENT
+UID:286c12d2-95e7-58cc-b8f2-294e6886a09e@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Inset Day
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+DESCRIPTION:School closed to pupils
+END:VEVENT
+BEGIN:VEVENT
+UID:83d4754e-7c56-59d9-8478-547e464f92d7@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Autumn 1 Term Begins
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+DESCRIPTION:Y1–Y6 all day
+END:VEVENT
+BEGIN:VEVENT
+UID:52a52c44-d864-5d93-8698-478ded5838be@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y6 Meet the Teacher
+DTSTART;TZID=Europe/London:20260902T153000
+DTEND;TZID=Europe/London:20260902T160000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:ffd9bdf8-218e-568b-ba73-0831a28a4850@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y5 Meet the Teacher
+DTSTART;TZID=Europe/London:20260903T153000
+DTEND;TZID=Europe/London:20260903T160000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:172bc959-8691-58fe-98ce-0ccc4b7dc768@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y4 Meet the Teacher
+DTSTART;TZID=Europe/London:20260907T153000
+DTEND;TZID=Europe/London:20260907T160000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:d3819209-8aea-5cef-9e8d-a0ae50390697@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y3 Meet the Teacher
+DTSTART;TZID=Europe/London:20260908T153000
+DTEND;TZID=Europe/London:20260908T160000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:41c56114-1260-598c-8472-275db9bdc4e6@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y2 Meet the Teacher
+DTSTART;TZID=Europe/London:20260909T153000
+DTEND;TZID=Europe/London:20260909T160000
+LOCATION:Y2 Classroom
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:bb843ed2-7979-580d-9c82-a0b764e8d076@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y1/2 Meet the Teacher
+DTSTART;TZID=Europe/London:20260910T153000
+DTEND;TZID=Europe/London:20260910T160000
+LOCATION:Y1/2 Classroom
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:9c5abd65-8d5c-5476-8af8-2b7f0b9eded4@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y1 Meet the Teacher
+DTSTART;TZID=Europe/London:20260911T153000
+DTEND;TZID=Europe/London:20260911T160000
+LOCATION:Y1 Classroom
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:f861214f-cf63-5d9e-956d-b97c7bffac61@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:KS1 Phonics Workshop
+DTSTART;TZID=Europe/London:20260924T143000
+DTEND;TZID=Europe/London:20260924T150000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:4022101d-55f3-5bc8-a4a4-fe935668467c@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:MacMillan Coffee
+DTSTART;TZID=Europe/London:20260925T153000
+DTEND;TZID=Europe/London:20260925T160000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:817d6e01-e58e-5a09-bce8-f3e6a790d9b1@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:School Photos
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+DESCRIPTION:Whole school all day
+END:VEVENT
+BEGIN:VEVENT
+UID:9cdd20e3-9dc6-5f1f-b672-14f343ac161d@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:FS2 Welcome Assembly
+DTSTART;TZID=Europe/London:20261021T140000
+DTEND;TZID=Europe/London:20261021T143000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:1eea4cfa-b943-5d9f-ac51-26126b0272d4@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Half Term Holidays
+DTSTART;TZID=Europe/London:20261023T152000
+DTEND;TZID=Europe/London:20261023T155000
+DESCRIPTION:School closes\; 30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:6740bedf-de89-5cec-9466-eaa9a4808d66@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Inset Day
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+DESCRIPTION:School closed to pupils
+END:VEVENT
+BEGIN:VEVENT
+UID:7e0974dc-d314-5bcc-8e27-584c0e793bbd@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Autumn 2 Term Begins
+DTSTART;TZID=Europe/London:20261103T085000
+DTEND;TZID=Europe/London:20261103T092000
+DESCRIPTION:School reopens\; 30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:c91ca600-659c-561b-b005-1325b4e6456e@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:KS1 Phonics Workshop
+DTSTART;TZID=Europe/London:20261105T140000
+DTEND;TZID=Europe/London:20261105T143000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:d6b25c1c-b9d0-5bb7-acc3-9d3e2718efe7@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Parents Evening
+DTSTART;TZID=Europe/London:20261112T153000
+DTEND;TZID=Europe/London:20261112T190000
+LOCATION:Hall & Classroom
+END:VEVENT
+BEGIN:VEVENT
+UID:80910b99-3a75-5a39-8372-57bf25b3bd93@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Children In Need
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+DESCRIPTION:Whole school all day
+END:VEVENT
+BEGIN:VEVENT
+UID:85d14c5a-6fea-5e19-85ac-a033425aebcb@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Rainhill Lights Switch On
+DTSTART;TZID=Europe/London:20261122T170000
+DTEND;TZID=Europe/London:20261122T173000
+LOCATION:Rainhill Village
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:4914778b-bc15-5471-ad16-026d49ef4077@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:FS2 Christmas Crafts
+DTSTART;TZID=Europe/London:20261207T133000
+DTEND;TZID=Europe/London:20261207T140000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:eec85619-5a7f-57db-9d51-f92080378b64@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:KS1 Nativity – Y1 Parents
+DTSTART;TZID=Europe/London:20261208T140000
+DTEND;TZID=Europe/London:20261208T143000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:ed00b98e-bcf2-55da-9484-9ffde40c4b17@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:KS1 Nativity – Y2 Parents
+DTSTART;TZID=Europe/London:20261209T140000
+DTEND;TZID=Europe/London:20261209T143000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:9ec9d9cf-4825-57bb-99d0-5af251dd0b4b@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y3 & Y4 Christmas Service
+DTSTART;TZID=Europe/London:20261210T140000
+DTEND;TZID=Europe/London:20261210T143000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:d09e30e4-0a76-57c9-a749-bf3a708385a0@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y5 Christmas Service
+DTSTART;TZID=Europe/London:20261214T090000
+DTEND;TZID=Europe/London:20261214T093000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:6282109c-4e4f-5c27-8409-a5720359e5fa@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y6 Christmas Service
+DTSTART;TZID=Europe/London:20261214T140000
+DTEND;TZID=Europe/London:20261214T143000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:7ee36f56-b6fe-5766-8af8-81c2c23eb644@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Christmas Jumper Day
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+DESCRIPTION:Whole school all day
+END:VEVENT
+BEGIN:VEVENT
+UID:1a35723a-8cfa-5fb9-ac9c-e17b85f51652@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Christmas Holidays
+DTSTART;TZID=Europe/London:20261218T140000
+DTEND;TZID=Europe/London:20261218T143000
+DESCRIPTION:School closes\; 30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:6eebe868-0d4a-55d7-a263-11b01241dede@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Inset Day
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+DESCRIPTION:School closed to pupils
+END:VEVENT
+BEGIN:VEVENT
+UID:b3234d38-8039-5ecc-96de-bf57093e8348@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Spring 1 Term Begins
+DTSTART;TZID=Europe/London:20270105T085000
+DTEND;TZID=Europe/London:20270105T092000
+DESCRIPTION:School reopens\; 30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:ba98ab4c-d709-5839-a015-1639f540f470@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y1 Writing Workshop
+DTSTART;TZID=Europe/London:20270119T152000
+DTEND;TZID=Europe/London:20270119T155000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:9d04b1da-64de-5e94-bf69-421c3a71a2db@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y1/2 Writing Workshop
+DTSTART;TZID=Europe/London:20270120T152000
+DTEND;TZID=Europe/London:20270120T155000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:f149bc70-8f7b-5f6b-8446-ddf0a92d3c14@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y2 Writing Workshop
+DTSTART;TZID=Europe/London:20270121T152000
+DTEND;TZID=Europe/London:20270121T155000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:639830b0-fd33-5f36-b84b-e1c748f25fa4@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y3 Writing Workshop
+DTSTART;TZID=Europe/London:20270126T152000
+DTEND;TZID=Europe/London:20270126T155000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:3f0718d5-6841-522f-b5e6-b8a9eb0eb084@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y4 Writing Workshop
+DTSTART;TZID=Europe/London:20270127T152000
+DTEND;TZID=Europe/London:20270127T155000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:2441c9c8-7923-5ef2-8fe1-fba10a656120@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y5 Writing Workshop
+DTSTART;TZID=Europe/London:20270128T152000
+DTEND;TZID=Europe/London:20270128T155000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:3ca04f48-2e35-5211-839f-cac33de50529@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y6 Writing Workshop
+DTSTART;TZID=Europe/London:20270203T152000
+DTEND;TZID=Europe/London:20270203T155000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:f135dfa1-3e86-501d-8240-0d5d7ce8a640@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:NSPCC Number Day
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+DESCRIPTION:Whole school all day
+END:VEVENT
+BEGIN:VEVENT
+UID:fc715f1b-3882-542f-a0b6-fffc56de8722@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Safer Internet Day
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+DESCRIPTION:Whole school all day
+END:VEVENT
+BEGIN:VEVENT
+UID:532fd05e-ea4c-5e7c-a57d-48b70c03b9af@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:FS2 Writing Workshop
+DTSTART;TZID=Europe/London:20270209T152000
+DTEND;TZID=Europe/London:20270209T155000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:0bcf9f72-4218-5c35-aeb4-03f757e7bf36@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Half Term Holidays
+DTSTART;TZID=Europe/London:20270212T152000
+DTEND;TZID=Europe/London:20270212T155000
+DESCRIPTION:School closes\; 30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:df0430d2-8bcc-578d-899e-48ea39ba1aa4@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Spring 2 Term Begins
+DTSTART;TZID=Europe/London:20270222T085000
+DTEND;TZID=Europe/London:20270222T092000
+DESCRIPTION:School reopens\; 30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:f3ac0670-b141-5a4d-a518-018634092fe1@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y6 HB Class Assembly
+DTSTART;TZID=Europe/London:20270302T090000
+DTEND;TZID=Europe/London:20270302T093000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:8ac1ab52-d595-5b85-a689-53e2553756cb@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y6 JK Class Assembly
+DTSTART;TZID=Europe/London:20270303T090000
+DTEND;TZID=Europe/London:20270303T093000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:dfcb1e24-ec7e-5105-b40d-1c831a83153b@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y5 AO Class Assembly
+DTSTART;TZID=Europe/London:20270304T090000
+DTEND;TZID=Europe/London:20270304T093000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:417e8c83-0c54-5f02-a4af-df53cd8f0e1c@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Mother’s Day (School Event)
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+DESCRIPTION:Whole school all day\; date as listed in school calendar
+END:VEVENT
+BEGIN:VEVENT
+UID:4c80b7a7-0e4c-58e8-8aff-850b60398533@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y5 CW Class Assembly
+DTSTART;TZID=Europe/London:20270309T090000
+DTEND;TZID=Europe/London:20270309T093000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:8f8e93e1-2dad-52f1-94f6-62a55374e04f@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y4 PG Class Assembly
+DTSTART;TZID=Europe/London:20270310T090000
+DTEND;TZID=Europe/London:20270310T093000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:ef289ebe-21e9-52b5-9db3-9b95345868d8@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Book Fair Week
+DTSTART;TZID=Europe/London:20270310T152000
+DTEND;TZID=Europe/London:20270310T155000
+LOCATION:Hall
+DESCRIPTION:School calendar says daily\; end date not specified\; 30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:efd975c6-100b-5fd5-9df2-1ed55da5f5e1@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y3 Class Assembly
+DTSTART;TZID=Europe/London:20270311T090000
+DTEND;TZID=Europe/London:20270311T093000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:12ee718e-8ccd-5866-b62f-088d3cb0da78@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y2 Class Assembly
+DTSTART;TZID=Europe/London:20270316T090000
+DTEND;TZID=Europe/London:20270316T093000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:3e9e36de-b7bb-5950-82fc-0b0e83afbfc3@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y1/2 Class Assembly
+DTSTART;TZID=Europe/London:20270317T090000
+DTEND;TZID=Europe/London:20270317T093000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:5d20849a-8422-5708-8314-c74a37b603bd@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y2 Class Assembly
+DTSTART;TZID=Europe/London:20270318T090000
+DTEND;TZID=Europe/London:20270318T093000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:7469963f-0484-54ce-a57b-a803c71ab932@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Red Nose Day
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+DESCRIPTION:Whole school all day
+END:VEVENT
+BEGIN:VEVENT
+UID:a5c75a11-5454-51f2-890d-d6d4bf13cdac@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Parents Evening
+DTSTART;TZID=Europe/London:20270324T153000
+DTEND;TZID=Europe/London:20270324T190000
+LOCATION:Hall & Class
+END:VEVENT
+BEGIN:VEVENT
+UID:a82092f3-3afd-5b16-8425-6da51c2e9f94@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Easter Holidays
+DTSTART;TZID=Europe/London:20270325T140000
+DTEND;TZID=Europe/London:20270325T143000
+DESCRIPTION:School closes\; 30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:168d693f-2713-5259-9e38-aa661562d76b@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Summer 1 Term Begins
+DTSTART;TZID=Europe/London:20270412T085000
+DTEND;TZID=Europe/London:20270412T092000
+DESCRIPTION:School reopens\; 30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:591c9457-cb8b-5089-8792-6e816a7a451d@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Rock-Kidz Event
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+DESCRIPTION:Whole school all day
+END:VEVENT
+BEGIN:VEVENT
+UID:e8d1f9bf-40d0-5c11-bc2e-72dcf2240081@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Bank Holiday Monday
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270504
+DESCRIPTION:School closed to pupils
+END:VEVENT
+BEGIN:VEVENT
+UID:8ee87f48-b292-5631-af26-393ccdc7e9b9@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:KS2 SATS Week
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270511
+DESCRIPTION:Y6 Monday to Thursday
+END:VEVENT
+BEGIN:VEVENT
+UID:e0a55139-4b6c-547e-a031-c70f32f99840@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Half Term Holidays
+DTSTART;TZID=Europe/London:20270528T152000
+DTEND;TZID=Europe/London:20270528T155000
+DESCRIPTION:School closes\; 30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:5dc5b14f-5d08-5f3d-b3c6-272ed2531e62@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Inset Day
+DTSTART;VALUE=DATE:20270607
+DTEND;VALUE=DATE:20270608
+DESCRIPTION:School closed to pupils
+END:VEVENT
+BEGIN:VEVENT
+UID:44c82c25-cc7a-5870-b308-bff6dfa4f9a6@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Inset Day
+DTSTART;VALUE=DATE:20270608
+DTEND;VALUE=DATE:20270609
+DESCRIPTION:School closed to pupils
+END:VEVENT
+BEGIN:VEVENT
+UID:11e1d1c3-493e-5bd1-9b27-d625cb9bffdd@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Summer 2 Term Begins
+DTSTART;TZID=Europe/London:20270609T085000
+DTEND;TZID=Europe/London:20270609T092000
+DESCRIPTION:School reopens\; 30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:a63f703d-a0a0-5596-ab03-e9a4b75e29c0@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Sports Day
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270618
+LOCATION:Field
+DESCRIPTION:Sessions at 9am / 10:30am / 2pm
+END:VEVENT
+BEGIN:VEVENT
+UID:e42e5d00-3329-58fa-a525-b8078a039cdc@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y6 Book Look
+DTSTART;TZID=Europe/London:20270628T153000
+DTEND;TZID=Europe/London:20270628T160000
+LOCATION:Y6 Classrooms
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:ae688694-9fa1-5799-9715-803a835cc3aa@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y5 Book Look
+DTSTART;TZID=Europe/London:20270629T153000
+DTEND;TZID=Europe/London:20270629T160000
+LOCATION:Y5 Classrooms
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:73fc33cb-0804-5b5c-9b6b-5d18d697fed9@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y4 Book Look
+DTSTART;TZID=Europe/London:20270630T153000
+DTEND;TZID=Europe/London:20270630T160000
+LOCATION:Y4 Classroom
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:05f5675f-519c-5ee6-b01f-a302604e7b96@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y3 Book Look
+DTSTART;TZID=Europe/London:20270701T153000
+DTEND;TZID=Europe/London:20270701T160000
+LOCATION:Y3 Classroom
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:f52aa6d8-a0c4-58dd-bf16-9c5b4d4fd377@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y2 Book Look
+DTSTART;TZID=Europe/London:20270706T153000
+DTEND;TZID=Europe/London:20270706T160000
+LOCATION:Y2 Classroom
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:84af571a-0c60-5420-8dd8-b311933d4480@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y1/2 Book Look
+DTSTART;TZID=Europe/London:20270707T153000
+DTEND;TZID=Europe/London:20270707T160000
+LOCATION:Y1/2 Class
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:5abb131d-b954-573b-83b7-4b8638159c9d@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y1 Book Look
+DTSTART;TZID=Europe/London:20270708T153000
+DTEND;TZID=Europe/London:20270708T160000
+LOCATION:Y1 Classroom
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:688205d6-f207-5793-8f2b-fc8796cd8c06@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Careers Carousel
+DTSTART;VALUE=DATE:20270708
+DTEND;VALUE=DATE:20270709
+DESCRIPTION:Y6 morning session
+END:VEVENT
+BEGIN:VEVENT
+UID:d56f6d88-deda-5f9c-ae29-2632db080a74@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Reports
+DTSTART;TZID=Europe/London:20270709T152000
+DTEND;TZID=Europe/London:20270709T155000
+DESCRIPTION:FS2–Y5\; 30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:e459f20c-a970-5453-97d4-139371d6e45d@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Transition Day
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270713
+DESCRIPTION:FS2–Y5 all day
+END:VEVENT
+BEGIN:VEVENT
+UID:a150672b-89de-5bfe-929a-a6ac2ed2a208@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:KS2 Results
+DTSTART;TZID=Europe/London:20270712T152000
+DTEND;TZID=Europe/London:20270712T155000
+DESCRIPTION:Y6\; 30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:66ceb979-37af-5865-bb4a-d1cb67d64d26@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:FS2 Book Look
+DTSTART;TZID=Europe/London:20270712T153000
+DTEND;TZID=Europe/London:20270712T160000
+LOCATION:FS2 Classroom
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:aba8703e-0bf7-5a24-9ea0-4d0d13808a19@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Drop-in Session
+DTSTART;TZID=Europe/London:20270713T153000
+DTEND;TZID=Europe/London:20270713T163000
+LOCATION:Hall
+END:VEVENT
+BEGIN:VEVENT
+UID:c9446428-4cc6-5571-aee6-048664fcceb0@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Y6 Production
+DTSTART;TZID=Europe/London:20270714T140000
+DTEND;TZID=Europe/London:20270714T143000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:2927db58-eb94-5ea9-a6ef-341a40c1d32d@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:French Festival
+DTSTART;VALUE=DATE:20270716
+DTEND;VALUE=DATE:20270717
+DESCRIPTION:Whole school all day
+END:VEVENT
+BEGIN:VEVENT
+UID:8d287e27-392f-5a31-902e-b659a3c292d0@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Fun Day
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270720
+DESCRIPTION:Y6 all day
+END:VEVENT
+BEGIN:VEVENT
+UID:37d373e5-7d7f-50ab-becd-9ab2d02abb13@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Leavers Assembly
+DTSTART;TZID=Europe/London:20270721T090000
+DTEND;TZID=Europe/London:20270721T093000
+LOCATION:Hall
+DESCRIPTION:30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:21b08595-bc7a-5535-a996-8955d301f202@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:Summer Holidays
+DTSTART;TZID=Europe/London:20270721T140000
+DTEND;TZID=Europe/London:20270721T143000
+DESCRIPTION:School closes\; 30-minute placeholder duration\; school did not provide an end time
+END:VEVENT
+BEGIN:VEVENT
+UID:0fe6ce9d-8a8c-5fbd-a1f0-e32a17b325f2@longton-calendar
+DTSTAMP:20261008T100000Z
+SUMMARY:World Book Day (date needs confirmation)
+DTSTART;VALUE=DATE:20260305
+DTEND;VALUE=DATE:20260306
+DESCRIPTION:Listed as 5 March 2026 in the Spring 2027 column of the school PDF\; please confirm with school.
+END:VEVENT
+END:VCALENDAR
