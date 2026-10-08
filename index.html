@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#163c61">
+  <title>Longton Lane School | Parents' Calendar 2026–27</title>
+  <style>
+    :root{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#173047;background:#f4f7fa}
+    *{box-sizing:border-box}body{margin:0}header{background:#163c61;color:white;padding:44px 20px 50px;text-align:center}
+    header h1{font-size:clamp(1.8rem,5vw,2.6rem);margin:0 0 8px}header p{margin:0;color:#d8e6f4}
+    main{max-width:800px;margin:-22px auto 48px;padding:0 16px}.panel{background:white;border-radius:16px;padding:26px;margin-bottom:18px;box-shadow:0 4px 20px #163c6110}
+    h2{font-size:1.3rem;margin:0 0 12px}p{line-height:1.6}.buttons{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:22px 0}
+    .button{display:block;border-radius:10px;padding:16px;text-align:center;text-decoration:none;font-weight:700;background:#1766a3;color:white}
+    .button.secondary{background:#eaf2f9;color:#16466e}.button:hover{filter:brightness(.94)}
+    .muted{color:#596b7c;font-size:.92rem}.events{list-style:none;margin:0;padding:0}.events li{padding:14px 0;border-bottom:1px solid #e7edf2}
+    .events li:last-child{border-bottom:0}.date{display:block;font-size:.86rem;color:#56718a;margin-bottom:3px}
+    details{margin-top:12px}summary{cursor:pointer;font-weight:600}code{overflow-wrap:anywhere}footer{text-align:center;color:#607589;padding:8px 20px 36px;font-size:.88rem}
+    @media(max-width:550px){.buttons{grid-template-columns:1fr}.panel{padding:21px}}
+  </style>
+</head>
+<body>
+  <header><h1>Longton Lane School</h1><p>Parents' Calendar · 2026–2027</p></header>
+  <main>
+    <section class="panel">
+      <h2>Add school dates to your calendar</h2>
+      <p>Subscribe once to see school events alongside your own appointments. Calendar changes can appear automatically when your app refreshes its subscription.</p>
+      <div class="buttons">
+        <a id="apple" class="button" href="#">🍎 Add to iPhone Calendar</a>
+        <a class="button secondary" href="https://calendar.google.com/calendar/u/0/r/settings/addbyurl" target="_blank" rel="noopener">📅 Google / Android instructions</a>
+      </div>
+      <p class="muted">iPhone: tap the Apple button and approve the calendar subscription if prompted. Google Calendar: open the Google button on a computer, choose <strong>From URL</strong>, then paste the subscription URL below. Subscribed calendars are read-only.</p>
+      <details><summary>Show calendar URL / alternative setup</summary>
+        <p>Copy this URL for Google Calendar's <strong>From URL</strong> option or for any other calendar app that supports subscriptions:</p>
+        <p><code id="url"></code></p>
+        <button id="copy" type="button">Copy calendar URL</button>
+        <p class="muted">If the iPhone button doesn't work, open iPhone Settings → Apps → Calendar → Calendar Accounts → Add Account → Other → Add Subscribed Calendar and paste the URL. Menu names may vary by iOS version.</p>
+      </details>
+    </section>
+    <section class="panel"><h2>Upcoming school events</h2><ul id="events" class="events"><li>Loading events…</li></ul></section>
+    <section class="panel"><h2>About this calendar</h2><p>This is an unofficial parent-created calendar based on Longton Lane Primary School's published 2026–27 events. Please confirm any changes with school communications.</p><p class="muted">The source document appears to contain an inconsistent year for World Book Day. Please check the school notice for that event.</p></section>
+  </main>
+  <footer>Longton Lane School · Parent-created calendar</footer>
+  <script>
+    // Place the .ics file alongside index.html. Keep its filename unchanged.
+    const filename = 'Longton_Lane_School_2026-2027.ics';
+    const calendarURL = new URL(filename, location.href).href;
+    document.getElementById('apple').href = calendarURL.replace(/^https:/, 'webcal:');
+    document.getElementById('url').textContent = calendarURL;
+    document.getElementById('copy').addEventListener('click', async () => {
+      try { await navigator.clipboard.writeText(calendarURL); document.getElementById('copy').textContent = 'Copied!'; }
+      catch { window.prompt('Copy this calendar URL:', calendarURL); }
+    });
+    function readDate(value) {
+      const match = value.match(/^(\d{4})(\d{2})(\d{2})(?:T(\d{2})(\d{2}))?/);
+      if (!match) return null;
+      const [,y,m,d,h,minute] = match;
+      return new Date(Number(y), Number(m)-1, Number(d), Number(h||0), Number(minute||0));
+    }
+    function unescapeICS(s){return s.replace(/\\n/gi,' ').replace(/\\,/g,',').replace(/\\;/g,';').replace(/\\\\/g,'\\');}
+    async function loadEvents(){
+      const list = document.getElementById('events');
+      try {
+        const response = await fetch(calendarURL);
+        if(!response.ok) throw new Error('Calendar file unavailable');
+        const content = (await response.text()).replace(/\r?\n[ \t]/g,'');
+        const events = [...content.matchAll(/BEGIN:VEVENT\r?\n([\s\S]*?)\r?\nEND:VEVENT/g)].map(match => {
+          const lines = match[1].split(/\r?\n/);
+          const get = key => {const line = lines.find(l=>l.split(':',1)[0].split(';')[0]===key);return line ? line.slice(line.indexOf(':')+1):'';};
+          return {date:readDate(get('DTSTART')),title:unescapeICS(get('SUMMARY')),location:unescapeICS(get('LOCATION')),allDay:lines.some(l=>l.startsWith('DTSTART;VALUE=DATE:'))};
+        }).filter(e=>e.date && e.title);
+        const today = new Date();today.setHours(0,0,0,0);
+        const upcoming = events.filter(e=>e.date>=today).sort((a,b)=>a.date-b.date).slice(0,12);
+        list.replaceChildren();
+        if(!upcoming.length){list.textContent='No upcoming events in this school-year calendar.';return;}
+        for(const e of upcoming){
+          const li=document.createElement('li');const when=document.createElement('span');when.className='date';
+          when.textContent=e.date.toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'long',year:'numeric'})+(e.allDay?'':' · '+e.date.toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'}));
+          const title=document.createElement('strong');title.textContent=e.title;
+          li.append(when,title);
+          if(e.location){const place=document.createElement('div');place.className='muted';place.textContent=e.location;li.append(place);}
+          list.append(li);
+        }
+      }catch(error){list.textContent='Events could not be loaded. Check that the .ics file is uploaded alongside index.html with the same filename.';}
+    }
+    loadEvents();
+  </script>
+</body>
+</html>
